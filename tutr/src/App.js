@@ -4,20 +4,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header class="main-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h1 class="app-name">
+          Welcome to Tutr!
+        </h1>
+        <p class="app-description">
+          The premier website for connecting students with tutors online.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <footer>
+        © 2023 Sunny Bapla, Issac Johnson, Anh Tuyet vo
+      </footer>
     </div>
   );
 }
