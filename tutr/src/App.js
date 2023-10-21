@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from './components/Navigation.js';
+import About from './components/About.js';
 
 function App() {
   return (
@@ -19,8 +20,11 @@ function App() {
           The premier website for connecting students with tutors online.
         </p>
       </header>
+      <Router>
+        <About />
+      </Router>
       <footer>
-        © 2023 Sunny Bapla, Issac Johnson, Anh Tuyet vo
+        © 2023 Sunny Bapla, Issac Johnson, Anh Tuyet Vo
       </footer>
     </div>
   );
