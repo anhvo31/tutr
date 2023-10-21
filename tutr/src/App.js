@@ -5,6 +5,7 @@ import Navigation from './components/Navigation.js';
 import HomePage from './components/HomePage.js';
 import About from './components/About.js';
 import LogIn from './components/LogIn.js';
+import Register from './components/Register.js';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/log-in" element={<LogIn />} />
+        </Routes>
+        <Routes>
+          <Route path="/register" element={<Register />} />
         </Routes>
       </Router>
       <Router>

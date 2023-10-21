@@ -10,7 +10,7 @@ const Navigation = () => {
                 <a class="nav-link" href="/log-in">Log In</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/sign-up">Sign Up</a>
+                <a class="nav-link" href="/register">Sign Up</a>
             </li>
         </ul>
     );
