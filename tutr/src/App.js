@@ -1,15 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from './components/Navigation.js';
 import About from './components/About.js';
+import LogIn from './components/LogIn.js';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navigation />
+        <Routes>
+          <Route path="/log-in" element={<LogIn />} />
+        </Routes>
       </Router>
       <header class="main-header">
         <img src={logo} className="App-logo" alt="logo" />
