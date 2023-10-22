@@ -6,6 +6,9 @@ import HomePage from './components/HomePage.js';
 import About from './components/About.js';
 import LogIn from './components/LogIn.js';
 import Register from './components/Register.js';
+import Teacher_Search from './components/Teacher_Search.js';
+import Teachers from './components/Teachers.js';
+
 
 function App() {
   return (
@@ -20,6 +23,13 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/register" element={<Register />} />
+        </Routes>
+      </Router>
+
+      <Router>
+        <Teacher_Search />
+        <Routes>
+        <Route path="/Teachers" element={<Teachers />} />
         </Routes>
       </Router>
       <Router>
